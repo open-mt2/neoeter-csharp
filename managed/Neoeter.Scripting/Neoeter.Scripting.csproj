@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Neoeter.Scripting</RootNamespace>
+    <!-- Loaded by the native host through hostfxr: needs a runtimeconfig.json. -->
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IsPackable>true</IsPackable>
+    <Description>C# scripting API for the Neoeter engine (native modules, packs).</Description>
+  </PropertyGroup>
+
+</Project>

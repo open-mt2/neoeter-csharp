@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Script assembly run by test_dotnet_host through the pack VFS. -->
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Shared with the host: resolved from the default load context. -->
+    <ProjectReference Include="../../Neoeter.Scripting/Neoeter.Scripting.csproj" Private="false" />
+  </ItemGroup>
+
+</Project>

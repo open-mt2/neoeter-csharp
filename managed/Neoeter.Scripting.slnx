@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/Neoeter.Scripting.HostTests/Neoeter.Scripting.HostTests.csproj" />
+  </Folder>
+  <Project Path="Neoeter.Scripting/Neoeter.Scripting.csproj" />
+</Solution>
